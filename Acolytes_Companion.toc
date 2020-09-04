@@ -4,3 +4,4 @@
 ## Version: 0.1
 
 Level_Up.lua
+Guild_Chat.lua
