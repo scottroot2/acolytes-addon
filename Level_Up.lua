@@ -8,10 +8,8 @@ Congrats_EventFrame:SetScript("OnEvent", function(self, event, ...)
         print('HAROO!! Congratulations on reaching level ' .. arg1 .. ', ' .. UnitName("Player") .. '! You gained ' ..
                   arg2 .. ' HP and ' .. arg3 .. ' MP!')
 
-        levelUpAnnounceMsg = UnitName("Player") .. ' just reached level ' .. arg2 .. ' HAROO!'
+        levelUpAnnounceMsg = UnitName("Player") .. ' just reached level ' .. arg1 .. ' HAROO!'
         SendChatMessage(levelUpAnnounceMsg, "GUILD", nil, nil)
     end
 
 end)
-
-print("Level up loaded!!!")
